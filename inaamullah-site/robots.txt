@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://inaamullah.netlify.app/sitemap.xml
