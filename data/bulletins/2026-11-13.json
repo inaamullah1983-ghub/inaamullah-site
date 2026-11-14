@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-13",
+ "lead": "Petrol and diesel cut again",
+ "video": [
+  "Petrol and diesel cut again",
+  "Hijacked GitHub accounts seek keys",
+  "Caruana leads in Budapest",
+  "PostgreSQL fixes dozens of flaws",
+  "DTCC plans tokenized assets on Solana"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2805551119847204/",
+  "Instagram": "https://www.instagram.com/reel/Dfrj0zxoCqY/",
+  "YouTube": "https://www.youtube.com/shorts/VY_0hkfxpJQ"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "petrol falls Rs3 to Rs332 a litre and diesel Rs4 to Rs360 from 13 Nov, the eighth cut in a row. Prices now reset almost daily."
+  ],
+  [
+   "Statecraft",
+   "SBP reserves",
+   "up $11m to $21.57bn in the week to 6 Nov; total liquid reserves $26.84bn."
+  ],
+  [
+   "Code",
+   "PostgreSQL",
+   "18.7, 17.12, 16.16, 15.20 and 14.25 fix dozens of CVEs, the most severe rated CVSS 8.8. PostgreSQL 14 gets no further fixes."
+  ],
+  [
+   "Security",
+   "GitHub",
+   "about 4,800 hijacked accounts sent probe pull requests to 61,764 repositories, hunting cloud credentials in CI workflows."
+  ],
+  [
+   "AI",
+   "Anthropic",
+   "Claude for Manufacturing brings 17 skills for quotes, quality and supply-chain work, plus four connectors including Oracle NetSuite."
+  ],
+  [
+   "Crypto",
+   "New York",
+   "NYDFS guidance bars \"no fees\" claims that hide other costs and requires disclosure of paid testimonials, with a 10 May 2027 deadline."
+  ],
+  [
+   "Travel",
+   "Alaska Airlines",
+   "five new Seattle nonstops, including daily Charlotte and Norfolk from 10 Jun 2027."
+  ],
+  [
+   "Chess",
+   "Total Chess, Budapest",
+   "Fabiano Caruana leads Group B on 10 points after beating Praggnanandhaa twice."
+  ]
+ ],
+ "sources": "Dawn · Business Recorder · SBP · PostgreSQL · Aikido · SecurityWeek · Anthropic · The Block · FinanceFeeds · Alaska Airlines · FIDE · Chess.com",
+ "notes": [
+  "Educational explainer, not financial advice.",
+  "Note: this channel uses Claude (Anthropic) in production."
+ ]
+}

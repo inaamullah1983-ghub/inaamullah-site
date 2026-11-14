@@ -1,0 +1,58 @@
+{
+ "date": "2026-11-07",
+ "lead": "AI R&D pace nearly doubled at Anthropic",
+ "video": [
+  "AI R&D pace nearly doubled at Anthropic",
+  "Cursor now ships the live app",
+  "Pakistan orders a cashless roadmap",
+  "TikTok Shop gets its own app",
+  "SonicWall VPN flaw exploited: patch now"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/954382340807903/",
+  "Instagram": "https://www.instagram.com/reel/Dfbit3RjrWp/",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7705317069914377524",
+  "YouTube": "https://www.youtube.com/shorts/djuKW5Uf4Xs"
+ },
+ "text": [
+  [
+   "",
+   "AI building AI",
+   "an independent METR review finds Anthropic's capability growth at about 1.9× its earlier rate (95% range 1.5–2.8×), mostly attributed to AI in the research loop. Most of the key evidence was redacted."
+  ],
+  [
+   "",
+   "Nigeria",
+   "from 5 Nov the central bank licenses stablecoin issuers, approves each token separately and bans algorithmic stablecoins; existing operators have 180 days to apply."
+  ],
+  [
+   "",
+   "Pakistan",
+   "the Prime Minister ordered a time-bound roadmap to 100% digital payments; most institutions are to be fully digital by December 2026, and Asaan Assignment Account cheques end on 15 Nov as Raast takes over."
+  ],
+  [
+   "",
+   "Airbnb",
+   "its Q3 letter says an AI travel agent starts rolling out in the first half of 2027."
+  ],
+  [
+   "",
+   "SonicWall",
+   "SSL-VPN flaw CVE-2026-19868, a SAML sign-in bypass, is exploited and on CISA's known-exploited list. No workaround; update SonicOS."
+  ],
+  [
+   "",
+   "Google",
+   "a $17B first data center in Wyoming, partly powered by a planned 702 MW fuel-cell plant with carbon capture."
+  ],
+  [
+   "",
+   "Cursor",
+   "cloud agents now take a prompt to a hosted web app, with security checks before an explicit publish."
+  ]
+ ],
+ "sources": "METR; The Block; crypto.news; Dawn; Express Tribune; Airbnb Q3 letter via TechCrunch; BleepingComputer; CCCS; Google; Bloomberg; Cursor.",
+ "notes": [
+  "Note: this channel uses Claude (Anthropic) in production. Educational explainer, not financial advice."
+ ]
+}

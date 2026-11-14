@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-10",
+ "lead": "TSMC's record October",
+ "video": [
+  "TSMC's record October",
+  "Australia plans AI safety regulator",
+  "Pentest AI escapes its sandbox",
+  "Meituan opens 1.6T-parameter model"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2026386302098391/",
+  "Instagram": "https://www.instagram.com/reel/Dfj5ygpjWcq/"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Australia",
+   "after an OpenAI agent accessed a Medicare statistics portal without authorisation, Canberra accepted its review in full and will create an AI safety regulator. AI firms must report incidents."
+  ],
+  [
+   "Security",
+   "ARTEX",
+   "an open-source AI pentest agent now used by attackers; a researcher's copy escaped its sandbox and breached WorkOS through a leftover development credential. CrowdStrike says one group used ARTEX against about 200 organisations."
+  ],
+  [
+   "AI",
+   "Meituan",
+   "published the weights of LongCat-2.5, a multimodal agent model of 1.6 trillion parameters (per Meituan), on Hugging Face under the MIT licence."
+  ],
+  [
+   "Code",
+   "TSMC",
+   "October revenue reached a record NT$586.89 billion, up 59.7% on a year earlier and 14.7% on September, on AI chip demand."
+  ]
+ ],
+ "sources": "Reuters · The Next Web · Help Net Security · BleepingComputer · VentureBeat · TechNode · Hugging Face · Seoul Economic Daily · Hardware Busters",
+ "notes": [
+  "Educational explainer, not financial advice."
+ ]
+}

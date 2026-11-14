@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-12",
+ "lead": "EU targets fake online pressure tricks",
+ "video": [
+  "EU targets fake online pressure tricks",
+  "Google launches Gemini Decisions API",
+  "Giri holds Carlsen twice in Budapest",
+  "AMD ships its 256-core EPYC chip",
+  "Barracuda gateway flaws exploited"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/1132705446063728/",
+  "Instagram": "https://www.instagram.com/reel/DfozXdhDMj6/",
+  "YouTube": "https://www.youtube.com/shorts/CZSvgtUUSU4",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7707227635478252821"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "EU",
+   "the proposed Digital Fairness Act would ban fake \"almost sold out\" claims and free-trial traps, with fines up to 6% of global turnover. Parliament and Council must still agree."
+  ],
+  [
+   "Code",
+   "Node.js",
+   "26.13.1, 24.22.3 and 22.23.5 fix 16 CVEs, 7 High; one can leak HTTPS server memory, including TLS private keys. Node 20 gets no fix."
+  ],
+  [
+   "AI",
+   "Google",
+   "the Gemini Decisions API answers yes/no, choice and rubric questions at $0.10 per million input tokens, with output free."
+  ],
+  [
+   "Security",
+   "Barracuda",
+   "two chainable Email Security Gateway flaws (CVSS 9.3 and 8.6) that give root access are now being exploited. Patch now."
+  ],
+  [
+   "Crypto",
+   "OKX and ICE",
+   "a tokenized-securities venue opens 23 Nov under the SEC innovation exemption, for eligible US customers; 67 companies opted out."
+  ],
+  [
+   "Travel",
+   "flydubai",
+   "Riga from 11 Dec, Salzburg and Vilnius from 12 Dec, three flights a week each."
+  ]
+ ],
+ "sources": "European Commission · Eunews · Irish Examiner · Node.js · Google · SiliconANGLE · SecurityWeek · BleepingComputer · The Block · Decrypt · Gulf News · Arabian Business",
+ "notes": [
+  "Educational explainer, not financial advice.",
+  "Note: this channel uses Google Drive (Google) in production."
+ ]
+}

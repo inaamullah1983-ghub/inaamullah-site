@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-09",
+ "lead": "Pakistani astronaut heads for Tiangong",
+ "video": [
+  "Pakistani astronaut heads for Tiangong",
+  "Wallet flaw: $5.6M moved to safety",
+  "Pakistan's services exports up 22.6%",
+  "Amazon now takes orders by text",
+  "Grok API text now watermarked"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/1324637203054760/",
+  "Instagram": "https://www.instagram.com/reel/Dfgo4LzAIQw/",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7706050942910729493",
+  "YouTube": "https://www.youtube.com/shorts/M0aCsqSm9Do"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Space",
+   "China says a Pakistani payload specialist will fly on Shenzhou-24, the first foreigner to visit its Tiangong station. No launch date yet; expected by end-2026."
+  ],
+  [
+   "Statecraft",
+   "Pakistan",
+   "services exports rose 22.6% to $2.72bn in July–September, led by telecom, computer and IT services at $1.25bn, up 17.7%."
+  ],
+  [
+   "Crypto",
+   "Keplr",
+   "a Web3Auth flaw exposed keys of some Google/Apple-login wallets; Web3Auth says it moved about $5.6M to safety. Recovery-phrase and hardware wallets were not affected."
+  ],
+  [
+   "Crypto",
+   "Amazon",
+   "Alexa for Shopping now takes orders by text for invited US customers, with millions more to follow in the coming weeks."
+  ],
+  [
+   "AI",
+   "xAI",
+   "since 7 Nov, seven Grok API models watermark their text by default; only team admins can opt out."
+  ],
+  [
+   "Code",
+   "Quantum",
+   "IBM, AMD and Oak Ridge launched a co-design platform for quantum error correction, aiming for 100 logical qubits by late 2028."
+  ]
+ ],
+ "sources": "Dawn · AFP · Pakistan Today · Minute Mirror · The Block · FinanceFeeds · Amazon · The Next Web · xAI · INSIDE · IBM · The Quantum Insider",
+ "notes": [
+  "Educational explainer, not financial advice."
+ ]
+}

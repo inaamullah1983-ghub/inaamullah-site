@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-11",
+ "lead": "Remittances up 13.8%",
+ "video": [
+  "Remittances up 13.8%",
+  "Adobe opens its apps to AI agents",
+  "Carlsen wins Total Chess blitz opener",
+  "AI proves Signal's protocol code",
+  "NYSE picks Avalanche to settle trades"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/1609079540903775/",
+  "Instagram": "https://www.instagram.com/reel/DfmIa5oCVHd/",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7706842631283887381",
+  "YouTube": "https://www.youtube.com/shorts/cbjh5NNcFmw"
+ },
+ "text": [
+  [
+   "Security",
+   "Microsoft",
+   "an exploited Outlook zero-day (CVE-2026-124194) is fixed in November's update. Patch now."
+  ],
+  [
+   "Security",
+   "Signal",
+   "DeepMind's AI wrote 6M+ lines of proof in four weeks to verify its core protocol code."
+  ],
+  [
+   "Statecraft",
+   "Pakistan",
+   "October remittances $3.9bn, up 13.8%; July–October $14.8bn, up 14% (SBP)."
+  ],
+  [
+   "AI",
+   "Adobe",
+   "outside AI agents will work inside Photoshop, Illustrator, Premiere and After Effects via MCP."
+  ],
+  [
+   "Crypto",
+   "NYSE",
+   "picks Avalanche to settle its planned 24/7 tokenized-stock venue; approval pending."
+  ],
+  [
+   "Code",
+   "AMD",
+   "Instinct Coder 355, an on-prem box serving AI coding to 50 developers at once."
+  ],
+  [
+   "Travel",
+   "Philippines",
+   "5M+ foreign visitors in ten months; Chinese arrivals up about 70%."
+  ]
+ ],
+ "sources": "Tenable · DeepMind · The Register · Dawn · The Nation · TechRadar · The Block · CoinDesk · AMD · VnExpress",
+ "notes": [
+  "Educational explainer, not financial advice.",
+  "Note: this channel uses Google Drive (Google) in production."
+ ]
+}
