@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-15",
+ "lead": "FAA nationwide ground stop",
+ "video": [
+  "FAA nationwide ground stop",
+  "Carlsen winless in Budapest",
+  "Fake Claude Code build in Cursor",
+  "Central banks sync FX settlement"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/29082021254786195/",
+  "Instagram": "https://www.instagram.com/reel/DfwI8tvmc_o/",
+  "YouTube": "https://www.youtube.com/shorts/o9IXQ7Q2ns0"
+ },
+ "text": [
+  [
+   "Security",
+   "UnrealIRCd",
+   "CVE-2026-114713 (CVSS 8.6) is exploited and on CISA's KEV list; versions 6.0.0 to 6.2.7 are exposed. Upgrade to 6.2.7.1."
+  ],
+  [
+   "Statecraft",
+   "ECO",
+   "Islamabad hosts the 30th Council of Ministers on 15–16 Nov; trade and connectivity lead the agenda."
+  ],
+  [
+   "AI",
+   "ElevenLabs",
+   "ElevenAI, in early access, pairs meeting notes with dictation in 90+ languages."
+  ],
+  [
+   "Code",
+   "Cursor",
+   "a fake Claude Code build was planted in Cursor's marketplace cache; up to 5,000 users may have been exposed. Anthropic's own extension was unaffected."
+  ],
+  [
+   "Chess",
+   "Total Chess, Budapest",
+   "before the last group round, Caruana leads on 16; Firouzja and Giri lead on 13; Group D is a three-way tie. Knockouts start 17 Nov."
+  ],
+  [
+   "Crypto",
+   "Project Meridian FX",
+   "the Bank of England, MAS and the Bank of Thailand tested settling both FX legs together across ledger and bank systems. The BoE plans a live link in 2028."
+  ],
+  [
+   "Travel",
+   "United States",
+   "an FAA ground stop held departures nationwide for over four hours on 13 Nov; officials blame legacy telecom routers."
+  ]
+ ],
+ "sources": "THN · Dawn · Digital Trends · BleepingComputer · FIDE · Bank of England · CBS News",
+ "notes": [
+  "Note: this channel uses Claude (Anthropic) and ElevenLabs in production.",
+  "Educational explainer, not financial advice."
+ ]
+}

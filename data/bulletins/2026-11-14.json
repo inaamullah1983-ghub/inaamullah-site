@@ -1,0 +1,62 @@
+{
+ "date": "2026-11-14",
+ "lead": "Martirosyan beats Carlsen",
+ "video": [
+  "Martirosyan beats Carlsen",
+  "ChatGPT Wallet: agents can buy",
+  "Petrol down Rs2, diesel holds",
+  "N-central zero-day beats Hotfix 2",
+  "AI patch flood hits Linux review"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2642529072903036/",
+  "Instagram": "https://www.instagram.com/reel/DfuNzBhkrwx/",
+  "YouTube": "https://www.youtube.com/shorts/XbGBSk0sgQc"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan prices",
+   "the weekly SPI fell 0.46% in the week to 12 Nov; the yearly rate eased to 11.21%."
+  ],
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "petrol falls Rs2 to Rs330 a litre and diesel holds at Rs360, valid 14–16 Nov."
+  ],
+  [
+   "Statecraft",
+   "Pakistan Minerals Investment Forum",
+   "13 MoUs, joint ventures and agreements, including geoscience MoUs with Türkiye's MTA, Germany's BGR and the British Geological Survey."
+  ],
+  [
+   "Security",
+   "Check Point gateways",
+   "attackers used PHP2Shell on unpatched gateways, then a separate flaw (CVE-2026-123039) to gain root. Patch and review gateway logs."
+  ],
+  [
+   "AI",
+   "OpenAI",
+   "ChatGPT Wallet lets dots agents complete purchases. Each buy needs Face ID or a fingerprint, and a payment token hides the card. Some US Pro users first."
+  ],
+  [
+   "AI",
+   "LangChain",
+   "a $300M Series C at a $3B valuation, led by CapitalG."
+  ],
+  [
+   "Code",
+   "Linux",
+   "a memory-management reviewer steps back from review outside his own areas, citing a flood of AI-generated patches. He keeps his maintainer roles."
+  ],
+  [
+   "Chess",
+   "Total Chess, Budapest",
+   "Haik Martirosyan beats Magnus Carlsen and leads Group C on 10; Carlsen has 5. Knockouts start 17 Nov."
+  ]
+ ],
+ "sources": "Dawn · Business Recorder · The Nation · Aaj English · Express Tribune · Check Point Research · SecurityWeek · TechCrunch · 9to5Mac · LangChain (Business Wire) · The Register · FIDE · Total Chess",
+ "notes": [
+  "Educational explainer, not financial advice."
+ ]
+}
