@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-18",
+ "lead": "Nvidia revenue up 103% in a year",
+ "video": [
+  "Nvidia revenue up 103% in a year",
+  "OpenAI ships GPT-6.2 Astra and Sol",
+  "Petrol cut Rs3 to Rs325",
+  "AI agents turn patches into exploits"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2431185021022735/",
+  "Instagram": "https://www.instagram.com/reel/Df4BJX_jazf/",
+  "YouTube": "https://www.youtube.com/shorts/VUXtnikl-R0",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7709428658741562632"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "Ogra cut petrol by Rs3 to Rs325 a litre from 18 November; high-speed diesel stays at Rs358."
+  ],
+  [
+   "Statecraft",
+   "COP31",
+   "the 18-page draft cover decision calls for developed countries to reach net zero by 2030 and carries fossil-fuel phase-out wording; talks are due to close on Friday."
+  ],
+  [
+   "AI",
+   "OpenAI GPT-6.2",
+   "Astra costs $8 input and $40 output per million tokens, 20% below GPT-6 Astra; Sol stays at $2 and $10, in ChatGPT, Codex and the API."
+  ],
+  [
+   "Code",
+   "Microsoft MAI-Code-2",
+   "the in-house coding model and its Flash version are live in GitHub Copilot; Flash also reaches Free and Student plans."
+  ],
+  [
+   "Code",
+   "Nvidia Q3 FY27",
+   "revenue reached $115.8bn, up 103% in a year, with data centres at $107.6bn; the Q4 outlook of $130bn ±3% assumes no data-centre compute revenue from China."
+  ],
+  [
+   "Security",
+   "Google threat intelligence",
+   "an attacker framework turned published patches into working exploits; zero-days hit 22 in August 2026, against 8 a month in 2025."
+  ],
+  [
+   "Chess",
+   "Total Chess semifinals",
+   "Giri and Firouzja won day one against Vachier-Lagrave and Caruana; the score resets for day two, and the final is on 19–20 November."
+  ],
+  [
+   "Travel",
+   "Allegiant and Sun Country",
+   "16 new nonstop routes for 2027, the first from mid-April, months after Allegiant completed its Sun Country acquisition."
+  ]
+ ],
+ "sources": "Nvidia (GlobeNewswire) · Decrypt · 9to5Google · TestingCatalog · Business Recorder · APP · Help Net Security · Security Affairs · Google Threat Intelligence",
+ "notes": []
+}
