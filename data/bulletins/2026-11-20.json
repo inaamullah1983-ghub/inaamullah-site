@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-20",
+ "lead": "Korea's exports pass $1tn",
+ "video": [
+  "Korea's exports pass $1tn",
+  "PHP fixes 7 critical flaws",
+  "Petrol up Re1 to Rs323",
+  "Giri leads Firouzja in the final"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2345494149575261/",
+  "Instagram": "https://www.instagram.com/reel/Df9EZDgjW9v/"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "petrol rises Re1 to Rs323 a litre from 20 November; high-speed diesel stays at Rs355."
+  ],
+  [
+   "Statecraft",
+   "South Korea",
+   "2026 exports passed $1 trillion on 19 November, the fourth country ever to reach the mark; chips earned $396.8bn from January to October."
+  ],
+  [
+   "Security",
+   "PHP",
+   "versions 8.5.13, 8.4.28, 8.3.37 and 8.2.36 fix seven critical flaws, including in session handling and PHP-FPM; PHP 8.6.0 is also out and no exploitation is reported."
+  ],
+  [
+   "Chess",
+   "Total Chess final, Budapest",
+   "Giri leads Firouzja 11–9 after day one and Caruana leads Vachier-Lagrave 11–9 for third; scores reset for day two."
+  ],
+  [
+   "AI",
+   "Google Gemini 4 Neon",
+   "API price $3 per million input tokens and $15 per million output tokens, with a 1 million-token context window."
+  ],
+  [
+   "Crypto",
+   "Singapore",
+   "MAS settled S$100m of tokenised four-week MAS Bills in wholesale central bank digital currency; applications were more than double the issue, from five primary dealers."
+  ]
+ ],
+ "sources": "Korea Herald · Seoul Economic Daily · University of Toronto · SecurityWeek · Business Recorder · Express Tribune · FIDE · Chess.com",
+ "notes": []
+}
