@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-19",
+ "lead": "Anthropic IPO priced at $83 a share",
+ "video": [
+  "Anthropic IPO priced at $83 a share",
+  "Java4Shell: patch your JDK",
+  "Petrol cut Rs3 to Rs322",
+  "Giri vs Firouzja for the title"
+ ],
+ "links": {
+  "YouTube": "https://www.youtube.com/shorts/zJfDuPEDFUI",
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/1713525966858620/",
+  "Instagram": "https://www.instagram.com/reel/Df6bf7qGAUk/",
+  "TikTok": "https://www.tiktok.com/@reward_heaven/video/7709766523358825736"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "Ogra cut petrol by Rs3 to Rs322 a litre and high-speed diesel by Rs3 to Rs355 from 19 November; petrol is Rs6 cheaper than two days ago."
+  ],
+  [
+   "Security",
+   "CISA KEV",
+   "four flaws added as exploited on 18 November, in BerriAI LiteLLM (CVE-2026-40217), Synology DSM, Apache Axis and REDCap; self-hosted AI gateways should patch and rotate admin keys."
+  ],
+  [
+   "Code",
+   "Java4Shell (CVE-2026-114938)",
+   "remote code execution in Java 17.0.6 and later, 21, 25 and 27 on x86 servers with AVX-512 VBMI; Java 8 and 11 are unaffected, fixed builds are out and exploit attempts have been seen."
+  ],
+  [
+   "Chess",
+   "Total Chess Budapest",
+   "Giri beat Vachier-Lagrave on both days and Firouzja beat Caruana in Armageddon; they meet in the final on 19–20 November."
+  ],
+  [
+   "AI",
+   "Anthropic IPO",
+   "priced at $83 a share, above the $70–78 range, valuing the company at about $1.5tn; shares trade as ANT on Nasdaq from 19 November."
+  ],
+  [
+   "Travel",
+   "Air Niugini",
+   "nonstop Port Moresby–Auckland flights resumed on 17 November, three a week, on Boeing 737-800s."
+  ]
+ ],
+ "sources": "AP (via Yahoo Finance, PBS) · Motley Fool · Tenable · University of Toronto · Express Tribune · Business Recorder · FIDE · Total Chess",
+ "notes": []
+}
