@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-21",
+ "lead": "AI agents exploit a zero-day",
+ "video": [
+  "AI agents exploit a zero-day",
+  "Firouzja wins Total Chess Budapest",
+  "Weekly SPI falls 0.65%",
+  "Sri Lanka passes 2m tourists"
+ ],
+ "links": {
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/2262245577968317/",
+  "Instagram": "https://www.instagram.com/reel/Df_vYASDu9k/"
+ },
+ "text": [
+  [
+   "Statecraft",
+   "Pakistan prices",
+   "the Sensitive Price Indicator fell 0.65% in the week ended 19 November and stands 10.41% higher year on year; wheat flour is up 44.20% on the year, while tomatoes fell 30.55% in the week."
+  ],
+  [
+   "Statecraft",
+   "Pakistan exports",
+   "the ECC amended EXIM Bank's Long-Term Export Growth Financing Facility, lowering the minimum export threshold for SMEs from 80% to 50% within four years, with a review after six months."
+  ],
+  [
+   "Chess",
+   "Total Chess Budapest",
+   "Alireza Firouzja won the final on an Armageddon decider against Anish Giri after coming back from a set down; Fabiano Caruana took third ahead of Maxime Vachier-Lagrave."
+  ],
+  [
+   "AI",
+   "Agentic attacks",
+   "AWS reports that attackers' AI agents went from mapping a medical imaging AI app's API to writing files on its server in about 11 minutes, through an unpatched flaw in the open-source MONAI Label; a fix and an advisory are now out."
+  ],
+  [
+   "Security",
+   "VMware vCenter",
+   "CVE-2026-123890, rated CVSS 9.8, was exploited as a zero-day before the patch; fixed builds are 9.1.1.0200, 9.0.2.0200 and 8.0 U3m, and no workaround is listed."
+  ],
+  [
+   "Travel",
+   "Sri Lanka",
+   "tourist arrivals passed 2 million on 20 November, the third straight year past the mark, after 17 November in 2025 and 26 December in 2024."
+  ]
+ ],
+ "sources": "AWS Security Blog · The Register · FIDE · Chess.com · Pakistan Bureau of Statistics · Dawn · Business Recorder · Xinhua · Daily Mirror (Sri Lanka)",
+ "notes": []
+}
