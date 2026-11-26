@@ -18,6 +18,13 @@ PLAUSIBLE = ('<script defer data-domain="%s" src="https://plausible.io/js/script
              % BASE.split("//", 1)[1])
 VAR = {"ai": "ai", "code": "code", "chess": "chess", "statecraft": "state", "crypto": "crypto",
        "data": "data", "security": "sec", "travel": "travel"}
+# Pill text sits on a 14% tint of its own colour, so the two darkest palette
+# entries fall below WCAG 1.4.3 (4.5:1) at the pill's 15px/700: sec 3.06,
+# data 3.80. Lowering the tint cannot fix it (same hue both sides: red tops out
+# at 3.27 even at 6%), so the text is lightened one step instead. Scoped to the
+# pill because --sec and --data are also used elsewhere on the home page.
+PILL_INK = {"sec": "#FF6B6B", "data": "#B197FC"}  # -> 4.52, 4.96
+SKIP = '<a class="skip" href="#main">Skip to content</a>'
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
 OUT = "public"
@@ -48,7 +55,9 @@ EXTRA = """
 .watch{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
 .watch a{display:inline-block;font:600 17px var(--body);color:var(--text);text-decoration:none;padding:10px 18px;border-radius:999px;border:1px solid var(--edge);background:var(--glass-hi)}
 .watch a:hover{background:rgba(255,255,255,.16)}
-.watch .primary{background:var(--red);border-color:var(--red)}
+/* --red (#E03131) behind --text is 4.13:1, under WCAG 1.4.3 for this 17px/600
+   label; one step darker clears it at 4.99:1 without changing the brand hue */
+.watch .primary{background:#C92A2A;border-color:#C92A2A}
 .note{color:var(--muted);font-size:16px}
 .note p{margin:0 0 6px}
 .list{margin:0;padding:0;list-style:none;display:grid;gap:12px}
@@ -58,6 +67,16 @@ EXTRA = """
 .list .s{display:block;color:var(--muted);font-size:16px;margin-top:2px}
 .pager{display:flex;justify-content:space-between;gap:12px;margin-top:28px}
 .pager a{color:var(--text);font-weight:600}
+/* the hand-written CSS gives .links a and summary an explicit 3px ring; these
+   generated controls had none and fell back to the browser default, which is
+   weak against the glass backgrounds. Same convention, applied consistently. */
+.nav a:focus-visible,.watch a:focus-visible,.list a:focus-visible,
+.pager a:focus-visible,.skip:focus-visible{outline:3px solid #fff;outline-offset:2px}
+/* WCAG 2.4.1: every page puts a banner and five nav links before the main
+   landmark. Off-screen until focused, then visible for keyboard users. */
+.skip{position:absolute;left:-9999px;top:0;z-index:10}
+.skip:focus{left:8px;top:8px;padding:10px 16px;border-radius:999px;background:var(--bg);
+color:var(--text);border:1px solid var(--edge);font:600 16px var(--body);text-decoration:none}
 """
 shutil.rmtree(OUT, ignore_errors=True)
 os.makedirs(os.path.join(OUT, "assets"))
@@ -107,17 +126,18 @@ def page(path, title, desc, body, cur, extra_head=""):
 %s
 </head>
 <body>
+%s
 <div class="field" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
 <header class="band"><p>Inaam Ullah · Reward Heaven</p></header>
 %s
-<main>
+<main id="main">
 %s
 %s
 </main>
 </body>
 </html>
 """ % (e(title), e(desc), url, e(title), e(desc), url, BASE, head_keep, PLAUSIBLE, extra_head,
-       nav(cur), body, FOOT)
+       SKIP, nav(cur), body, FOOT)
     d = os.path.join(OUT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(doc)
@@ -125,7 +145,10 @@ def page(path, title, desc, body, cur, extra_head=""):
 
 def pill(p):
     k = p.lower()
-    return '<span class="pill" style="--c:var(--%s)">%s</span>' % (VAR[k], e(p)) if k in VAR else ""
+    if k not in VAR:
+        return ""
+    v = VAR[k]
+    return '<span class="pill" style="--c:%s">%s</span>' % (PILL_INK.get(v, "var(--%s)" % v), e(p))
 
 
 # ---------------------------------------------------------------- bulletins
@@ -208,13 +231,18 @@ page("/about/", "About Reward Heaven · Inaam Ullah",
      "<h2>Who publishes it</h2><p>Inaam Ullah, Vice President, Chess Federation of Pakistan.</p></section>", "/about/")
 
 # ---------------------------------------------------------------- home: kept as designed, three insertions
-h = home.replace("</style>", EXTRA + "</style>", 1)
+# the main landmark is given its id BEFORE the stylesheet is injected: EXTRA is
+# inserted into <style> in the head, so any "<main>" inside it would otherwise be
+# the first match in document order and absorb this replacement instead
+h = home.replace("<main>", '<main id="main">', 1)
+h = h.replace("</style>", EXTRA + "</style>", 1)
 band = '<header class="band"><p>Inaam Ullah · Reward Heaven</p></header>'
 # the home source may carry its own hand-written menu (SEO pass); the generated one is canonical
 h = re.sub(r"(?:<!--[^>]*-->\s*)?<nav class=\"nav\".*?</nav>\s*", "", h, flags=re.S)
 h = h.replace(band, band + "\n" + nav("/"), 1)
 # the home page keeps its hand-written head, so analytics is inserted into it directly
 h = h.replace("</head>", PLAUSIBLE + "\n</head>", 1)
+h = h.replace("<body>", "<body>\n" + SKIP, 1)
 if built:
     dt, lead, n = built[0]
     latest = ('  <section aria-labelledby="lt-h">\n    <h2 id="lt-h">Latest bulletin</h2>\n    <ul class="list"><li>'
@@ -225,6 +253,13 @@ if built:
 assert h.count('class="nav"') == 1, "home page: menu bar not inserted"
 assert h.count("Latest bulletin") == (1 if built else 0), "home page: latest block not inserted"
 assert h.count("plausible.io/js/script.js") == 1, "home page: analytics not inserted"
+# checked against the body alone: the same strings occur in the stylesheet
+# comments in the head, which would otherwise satisfy these silently
+_body = h.split("</head>", 1)[1]
+assert _body.count('class="skip"') == 1, "home page: skip link not inserted"
+assert _body.count('<main id="main">') == 1, "home page: main landmark not given an id"
+assert _body.index('class="skip"') < _body.index('<main id="main">'), \
+    "home page: skip link must precede the main landmark it targets"
 open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(h)
 urls.insert(0, BASE + "/")
 
