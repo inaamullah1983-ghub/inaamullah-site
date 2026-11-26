@@ -12,6 +12,10 @@ from datetime import date
 
 BASE = "https://inaamullah.netlify.app"
 TAGLINE = "AI, code, chess and statecraft, made clear."
+# Plausible analytics. data-domain must match the site registered in Plausible,
+# so it is derived from BASE to stay in step with it.
+PLAUSIBLE = ('<script defer data-domain="%s" src="https://plausible.io/js/script.js"></script>'
+             % BASE.split("//", 1)[1])
 VAR = {"ai": "ai", "code": "code", "chess": "chess", "statecraft": "state", "crypto": "crypto",
        "data": "data", "security": "sec", "travel": "travel"}
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -100,6 +104,7 @@ def page(path, title, desc, body, cur, extra_head=""):
 %s
 <link rel="stylesheet" href="/assets/site.css">
 %s
+%s
 </head>
 <body>
 <div class="field" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
@@ -111,7 +116,8 @@ def page(path, title, desc, body, cur, extra_head=""):
 </main>
 </body>
 </html>
-""" % (e(title), e(desc), url, e(title), e(desc), url, BASE, head_keep, extra_head, nav(cur), body, FOOT)
+""" % (e(title), e(desc), url, e(title), e(desc), url, BASE, head_keep, PLAUSIBLE, extra_head,
+       nav(cur), body, FOOT)
     d = os.path.join(OUT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(doc)
@@ -207,6 +213,8 @@ band = '<header class="band"><p>Inaam Ullah · Reward Heaven</p></header>'
 # the home source may carry its own hand-written menu (SEO pass); the generated one is canonical
 h = re.sub(r"(?:<!--[^>]*-->\s*)?<nav class=\"nav\".*?</nav>\s*", "", h, flags=re.S)
 h = h.replace(band, band + "\n" + nav("/"), 1)
+# the home page keeps its hand-written head, so analytics is inserted into it directly
+h = h.replace("</head>", PLAUSIBLE + "\n</head>", 1)
 if built:
     dt, lead, n = built[0]
     latest = ('  <section aria-labelledby="lt-h">\n    <h2 id="lt-h">Latest bulletin</h2>\n    <ul class="list"><li>'
@@ -216,6 +224,7 @@ if built:
     h = h.replace('  <section aria-labelledby="ch-h">', latest + '  <section aria-labelledby="ch-h">', 1)
 assert h.count('class="nav"') == 1, "home page: menu bar not inserted"
 assert h.count("Latest bulletin") == (1 if built else 0), "home page: latest block not inserted"
+assert h.count("plausible.io/js/script.js") == 1, "home page: analytics not inserted"
 open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(h)
 urls.insert(0, BASE + "/")
 
