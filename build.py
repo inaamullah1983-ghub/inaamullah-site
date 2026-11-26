@@ -13,8 +13,11 @@ from datetime import date
 BASE = "https://inaamullah.netlify.app"
 TAGLINE = "AI, code, chess and statecraft, made clear."
 # Plausible analytics. data-domain must match the site registered in Plausible,
-# so it is derived from BASE to stay in step with it.
-PLAUSIBLE = ('<script defer data-domain="%s" src="https://plausible.io/js/script.js"></script>'
+# so it is derived from BASE to stay in step with it. The outbound-links variant
+# is used because every call to action here leaves the site (YouTube, Facebook,
+# Instagram, TikTok), and the plain script would record none of those clicks.
+PLAUSIBLE = ('<script defer data-domain="%s" '
+             'src="https://plausible.io/js/script.outbound-links.js"></script>'
              % BASE.split("//", 1)[1])
 VAR = {"ai": "ai", "code": "code", "chess": "chess", "statecraft": "state", "crypto": "crypto",
        "data": "data", "security": "sec", "travel": "travel"}
@@ -252,7 +255,7 @@ if built:
     h = h.replace('  <section aria-labelledby="ch-h">', latest + '  <section aria-labelledby="ch-h">', 1)
 assert h.count('class="nav"') == 1, "home page: menu bar not inserted"
 assert h.count("Latest bulletin") == (1 if built else 0), "home page: latest block not inserted"
-assert h.count("plausible.io/js/script.js") == 1, "home page: analytics not inserted"
+assert h.count("plausible.io/js/script") == 1, "home page: analytics not inserted"
 # checked against the body alone: the same strings occur in the stylesheet
 # comments in the head, which would otherwise satisfy these silently
 _body = h.split("</head>", 1)[1]
