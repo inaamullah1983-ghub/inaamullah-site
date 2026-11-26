@@ -204,6 +204,8 @@ page("/about/", "About Reward Heaven · Inaam Ullah",
 # ---------------------------------------------------------------- home: kept as designed, three insertions
 h = home.replace("</style>", EXTRA + "</style>", 1)
 band = '<header class="band"><p>Inaam Ullah · Reward Heaven</p></header>'
+# the home source may carry its own hand-written menu (SEO pass); the generated one is canonical
+h = re.sub(r"(?:<!--[^>]*-->\s*)?<nav class=\"nav\".*?</nav>\s*", "", h, flags=re.S)
 h = h.replace(band, band + "\n" + nav("/"), 1)
 if built:
     dt, lead, n = built[0]
