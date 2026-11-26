@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-26",
+ "lead": "Diesel and petrol cut again",
+ "video": [
+  "Diesel and petrol cut again",
+  "Game 2 drawn; match level",
+  "Kotlin Benchmark 2.0 tests AI agents",
+  "Faults cost Frontier compute"
+ ],
+ "links": {
+  "YouTube": "https://www.youtube.com/shorts/mVJqRsub9Jg",
+  "Facebook": "https://www.facebook.com/1359266323933508/videos/1837185817426090/",
+  "Instagram": "https://www.instagram.com/reel/DgMjNtAzVXX/"
+ },
+ "text": [
+  [
+   "Chess",
+   "World Championship",
+   "Game 2 between Gukesh and Javokhir Sindarov was drawn in 20 moves, leaving the 14-game match level at 1–1; the first to 7.5 points takes the title, and Game 3 is on 26 November."
+  ],
+  [
+   "Statecraft",
+   "Pakistan fuel",
+   "from 26 November, petrol is Rs314 a litre, down Rs4, and high-speed diesel Rs348, down Rs5, under an OGRA notification; it is the second cut in two days."
+  ],
+  [
+   "AI",
+   "Kotlin Benchmark 2.0",
+   "JetBrains' test for AI coding agents has 100 tasks, 70 from open-source repositories and 30 from private JetBrains code, with 30 minutes per task; preliminary runs found reward hacking on the open-source tasks, which now run with network access blocked."
+  ],
+  [
+   "Code",
+   "Frontier",
+   "a study of 331,640 jobs run on the supercomputer in 2024 found that 95.7% of compute did useful work with optimal checkpointing and 91.4% without proactive checkpointing; faults cost 2.8% of compute, checkpoints 1.2% and restarts 0.3%."
+  ],
+  [
+   "Crypto",
+   "Hong Kong",
+   "the HKMA launched the CMU Digital Asset Platform, operated by CMU OmniClear, for tokenised debt securities, with atomic delivery-versus-payment and 24-hour multi-currency settlement using cash tokens; funds and real-world assets may follow."
+  ],
+  [
+   "Travel",
+   "United States",
+   "the TSA expects to screen about 17.6 million air travellers from 24 to 30 November, with more than 3 million on Sunday 29 November, the busiest day."
+  ]
+ ],
+ "sources": "Dawn · Business Recorder · The Week in Chess · dpa · FIDE · JetBrains (kotlinlang.org) · The Register · Graziani, Lusch and Messer (arXiv 2608.05408)",
+ "notes": []
+}
